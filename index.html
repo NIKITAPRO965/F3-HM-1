@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body style="background-color: aqua;">
+  </head>
+  <body style="background-color: aqua">
     <script type="module" src="./js/work.js"></script>
-</body>
+    <script>
+      let userName = prompt("Введіть своє ім'я");
+      alert("Ваше ім'я: " + userName);
+      console.log(typeof userName);
+    </script>
+    <script>
+      const userAnswer = confirm("Ви дійсно хочете покинути сторінку?");
+      console.log(userAnswer);
+    </script>
+    <script>
+        const message = "Увага! Дія може бути небезпечною.";
+        alert(message);
+        // console.log(message);
+        const question = confirm("Ви впевнені, що хочете продовжити?");
+        console.log(question);
+    </script>
+  </body>
 </html>
